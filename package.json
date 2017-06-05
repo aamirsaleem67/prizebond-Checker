@@ -1,0 +1,15 @@
+{
+  "name": "book-practice",
+  "version": "1.0.0",
+  "description": "Prize bond api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Aamir",
+  "license": "MIT"
+}
