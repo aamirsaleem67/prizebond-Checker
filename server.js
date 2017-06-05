@@ -5,7 +5,7 @@ function start(route,handle) {
         var pathname = url.parse(request.url).pathname;
         var path2 =  url.parse(request.url, true).query;
         
-        console.log("Request for " + path2.draw+ " received.");
+        // console.log("Request for " + path2.draw+ " received.");
         var content=route(handle,pathname,path2);
 
         response.writeHead(200, { "Content-Type": "text/plain" });

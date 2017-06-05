@@ -12,12 +12,11 @@ function upload() {
 }
 
 function search(mypath){
-    var arr = mypath.split("=");
-    console.log("array "+arr);
+    
     var obj = bond.obj;
     for(i=0; i < obj.second.length;i++)
     {
-        if(obj.second[i]==arr[1])
+        if(obj.second[i]==mypath.num)
         {
             return "2512151";
         }
@@ -25,6 +24,8 @@ function search(mypath){
             return "successs";
         }
     }
+
+    return "search karaya";
 
 }
 

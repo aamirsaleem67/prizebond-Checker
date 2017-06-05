@@ -8,6 +8,6 @@ handle["/start"]=requestHandlers.start;
 handle["/upload"]=requestHandlers.upload;
 handle["/search"]=requestHandlers.search;
 
-console.log(handle["/25000"]);
+
 
 server.start(router.route,handle);
