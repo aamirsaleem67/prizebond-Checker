@@ -18,7 +18,8 @@ function search(mypath){
     {
         if(obj.second[i]==mypath.num)
         {
-            return "2512151";
+            return "you have won second prize of"+
+            mypath.draw;
         }
         else{
             return "successs";
