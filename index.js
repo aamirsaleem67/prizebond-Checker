@@ -6,7 +6,7 @@ var handle = {};
 handle["/"]=requestHandlers.start;
 handle["/start"]=requestHandlers.start;
 handle["/upload"]=requestHandlers.upload;
-handle["/25000"]=requestHandlers.search;
+handle["/search"]=requestHandlers.search;
 
 console.log(handle["/25000"]);
 
