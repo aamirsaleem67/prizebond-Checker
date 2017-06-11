@@ -6,17 +6,18 @@
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
-    
   },
-  "engines":{
-
+  "engines": {
     "node": "7.4.0",
-     "npm":"4.0.5"
-    
-      },
+    "npm": "4.0.5"
+  },
   "keywords": [
     "node"
   ],
   "author": "Aamir",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.1",
+    "node-cron": "^1.2.0"
+  }
 }

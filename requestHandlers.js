@@ -10,10 +10,10 @@ function upload() {
     return "Hello Upload";
 
 }
-
+var obj;
 function search(mypath){
     
-    var obj = bond.searchobject(mypath);
+     obj = bond.searchobject(mypath);
     if(obj==null || mypath.num== undefined){
         return "undefinded prize bond number or draw is undefined or incorrect";
     }
@@ -56,7 +56,7 @@ function search(mypath){
    
      }    // end of while   
   
-            console.log(JSON.stringify(msg));
+            // console.log(JSON.stringify(obj));
 
             return JSON.stringify(msg);
         
